@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Product Review Analyzer</title>
+</head>
+<body>
+  <h1>Product Review Analyzer 📊</h1>
+  <pre id="reviews"></pre>
+
+  <button onclick="avg_Ratings()">Average Rating</button>
+  <input type="number" id="minRating" value="4" min="1" max="5">
+  <button onclick="filter_Reviews()">Filter Reviews ≥ Rating</button>
+  <button onclick="highest_Product()">Highest Rating Product</button>
+  <button onclick="groupByProduct()">Group by Product</button>
+  <button onclick="fetch_New()">Fetch New Reviews</button>
+
+  <h3>Results:</h3>
+  <pre id="output"></pre>
+
+  <script src="Lab_4.js"></script>
+</body>
+</html>
