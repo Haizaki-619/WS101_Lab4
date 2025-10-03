@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.First-Part {
+    text-align: center;
+    padding-left: 50px;
+    
+}
+
+.Info-section {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    border-bottom: 2px solid black;
+}
+
+
+.Second-Part {
+    text-align: right;
+    min-width: 200px;
+    border-right: 2px solid black;
+    padding-right: 10px;
+}
+.Third-Part {
+    text-align: left;
+    min-width: 200px;
+}
+
+.Work-Experience {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+
+.Education {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.Work-Experience h3, .Education h3 {
+    margin-right: 10px;
+}
+
+.Work-Experience hr, .Education hr{
+    flex: 1;                  
+    border-top: 2px solid black;
+}
+
+.Work-Experience2, .Education2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.Work-Experience2 {
+  align-items: center;
+  padding-right: 5px;
+
+}
+
+.Education2 {
+  align-items: center;
+  padding-right: 15px;
+  
+}
+
+.Experties, .Award {
+  flex-basis: 40%;
+  padding: 20px;
+}
+
+.Last-Part {
+   display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding: 10px;
+    align-items: flex-start;
+}
+
+.Expertise {
+    text-align: right; 
+    min-width: 200px;
+    padding-right: 20px; 
+}
+
+.Awards {
+  border-left: 2px solid rgb(0, 0, 0);
+  text-align: left; 
+  padding-left: 20px; 
+}
+
+.Expertise h3 {
+    text-align: right; 
+}
+
+.Awards h3 {
+    text-align: left; 
+}
+
+.Awards h4, .Awards p {
+  margin: 5px 0;
+}
+
+
